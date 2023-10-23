@@ -3,7 +3,7 @@
 
 <head>
   <!-- Set the page title -->
-  <title>Assignment 02</title>
+  <title>The Ballon D'or Website</title>
 
   <!-- Set the charset we're using to UTF-8 -->
   <meta charset="utf-8" />
@@ -19,7 +19,7 @@
 
   <!-- This is where all of our awesome CSS code goes -->
   <link rel="stylesheet" href="./style.css" />
-</head>
+  </head>
 
 <body>
   <!--
@@ -27,7 +27,87 @@
     YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
   -->
-  <h1>Assignment 02</h1>
-</body>
 
+  <header>
+    <img class="logo" src="images/logo.png" alt="logo" />
+</header>
+
+<main>
+    <h1>Ballon D'or</h1>
+    <div class="Ballondor-container">
+
+        <section class="ballondor">
+            <img class="images" src="images/ballond'or2.jpg" alt="ballon dor history" />
+            <h2>Ballon D'or</h2>
+            <p>The Ballon d'Or is one of the most prestigious individual awards in the world of football, presented annually by France Football. It recognizes the best male footballer in the world. Here's a look at the winners from the past ten years:</p>
+            <p class="bold-text">↓</p>
+            <div class="more">
+                <a class="btn" href="#">Learn More</a>
+            </div>
+        </section>
+
+        <section class="ballondor">
+            <img class="images" src="images/ballondor11.jpg" alt="Winners" />
+            <h2>Winners</h2>
+            <p>Here's a look at the winners from the past ten years:</p>
+            <p class="bold-text">↓</p>
+            <div class="more">
+                <a class="btn" href="#">Learn More</a>
+            </div>
+        </section>
+
+        <section class="ballondor">
+            <img class="images" src="images/ballondor3.jpg" alt="Most winner of the Ballon D'or" />
+            <h2>Most winner of the Ballon D'or</h2>
+            <p>Lionel Messi, widely regarded as one of the greatest footballers of all time, has won the prestigious Ballon d'Or award 7 times as of January 2022. He secured these accolades in the years 2009, 2010, 2011, 2012, 2015, 2019, and 2021. These wins, spanning over a decade, attest to Messi's consistency, skill, and impact in the world of football.</p>
+            <p class="bold-text">↓</p>
+            <div class="more">
+                <a class="btn" href="#">Learn More</a>
+            </div>
+        </section>
+
+        <section>
+          <form>
+           <fieldset>
+            <legend>Sign Up for a Newsletter</legend>
+            <label for="name">Name</label>
+            <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+           />
+           <input type="submit" value="Submit" />
+           </fieldset> 
+          </form>
+        </section>
+      </div> 
+     </main>
+
+  <footer>
+    <nav>
+     <div class="option-1">
+          <h3>Ballon D'or Menu</h3>
+          <ul>
+      <li><a href="#">Ballon D'or</a></li>
+              <li><a href="#">Winners</a></li>
+              <li><a href="#">Most winner of the Ballon D'or</a></li>
+          </ul>
+      </div>
+      </nav>
+
+  <div class="copyrights">
+      <p>&copy; 2023 Ballon D'or</p>
+  </div>
+</footer>
+</body>
 </html>

@@ -3,17 +3,169 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #9aa899;  
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+  h1 {
   text-align: center;
-  color: #023047;
+  padding: 20px;
+  background-color: #4a7b9b;
+  color: #000; 
+}
+
+.logo {
+width: 200px;
+color: #000;
+}
+
+.Ballondor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+p{
+  margin-bottom: 4rem;
+}
+
+.ballondor {
+  background-color: #3498db;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+  width: 30%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.images {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+
+.bold-text {
+  font-weight: bold;
+  font size: 2rem;
+}
+
+.ballondor:nth-child(1){
+  background-color: #00b300;
+}
+
+.ballondor:nth-child(2){
+  background-color: #1e81fb;
+}
+
+.ballondor:nth-child(3){
+  background-color: #;
+}
+
+.more{
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: #000;
+  bottom: 1.5px solid #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-style: oblique;
+  text-transform: uppercase
+  text decoration: none;
+}
+
+section {
+  background-color: #f9f9f9;  
+  padding: 20px;
+  max-width: 400px;  
+  border-radius: 8px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 1px solid #e0e0e0;  
+  border-radius: 8px; 
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #2C3E50;  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #2C3E50;  
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #999; 
+  color: #fff; /
+}
+
+input[type="submit"]:hover {
+  background-color: #333333; 
+}
+
+footer {
+  color: #000;
+  margin: 8rem 0;
+  background-color: inherit;
+  color: #fff;
+  padding: 1rem;
+
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .copyrights {
+  margin: 5rem 0 1rem 0;
 }
